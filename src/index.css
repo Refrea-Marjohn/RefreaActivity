@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.question-section {
+  margin-bottom: 30px;
+}
+
+.question-section p {
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.options button {
+  padding: 12px 20px;
+  background-color: #4f6d7a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.options button:hover {
+  background-color: #395160;
+}
+
+.score-section h2 {
+  color: #2c3e50;
+  font-size: 24px;
+}
+
+.score-section p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.option-btn {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: #4f6d7a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.option-btn:hover {
+  background-color: #395160;
+}
+
+.option-btn.correct {
+  background-color: #28a745;
+}
+
+.option-btn.incorrect {
+  background-color: #dc3545;
+}
+
+.feedback {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.correct-text {
+  color: #28a745;
+}
+
+.incorrect-text {
+  color: #dc3545;
+}
+
+.next-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.next-btn:hover {
+  background-color: #0056b3;
+}
+
+.next-btn {
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.next-btn:hover {
+  background-color: #0056b3;
+}
+.next-btn {
+  padding: 10px 20px;
+  margin-top: 15px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.next-btn:hover {
+  background-color: #0056b3;
+}
